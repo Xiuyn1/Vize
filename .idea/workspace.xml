@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39b4999a-1808-4200-9b66-14e8fb7027c3" name="Changes" comment="delete secrets" />
+    <list default="true" id="39b4999a-1808-4200-9b66-14e8fb7027c3" name="Changes" comment="delete secrets">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +53,7 @@
       <updated>1681063110473</updated>
       <workItem from="1681063111545" duration="812000" />
       <workItem from="1681063942580" duration="3966000" />
-      <workItem from="1681070036061" duration="27000" />
+      <workItem from="1681070036061" duration="1137000" />
     </task>
     <task id="LOCAL-00001" summary="delete secrets">
       <created>1681069750713</created>
