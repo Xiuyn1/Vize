@@ -1,0 +1,56 @@
+<mxfile host="app.diagrams.net" modified="2023-04-09T20:15:22.026Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0" etag="rCFW7Q45pTI9HKQJVdwO" version="21.1.5">
+  <diagram name="Sayfa -1" id="0XvAjct7X9MglFAJiR3O">
+    <mxGraphModel dx="1009" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mO-Jo7RIkGv5yGXzlKSI-6" value="Menu" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="110" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mO-Jo7RIkGv5yGXzlKSI-7" value="+Menu1():&amp;nbsp; &amp;nbsp; &amp;nbsp; int&lt;br&gt;&lt;br&gt;+Menu2():&amp;nbsp; &amp;nbsp; &amp;nbsp;void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mO-Jo7RIkGv5yGXzlKSI-6">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="mO-Jo7RIkGv5yGXzlKSI-11" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mO-Jo7RIkGv5yGXzlKSI-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="618.0799999999999" y="207.428" as="sourcePoint" />
+            <mxPoint x="494" y="156.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mO-Jo7RIkGv5yGXzlKSI-13" value="&lt;b&gt;Main&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="98" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="mO-Jo7RIkGv5yGXzlKSI-14" value="+secim1:&amp;nbsp; int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mO-Jo7RIkGv5yGXzlKSI-13">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mO-Jo7RIkGv5yGXzlKSI-15" value="+secim2:&amp;nbsp; int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mO-Jo7RIkGv5yGXzlKSI-13">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mO-Jo7RIkGv5yGXzlKSI-16" value="+elitUyeGirisi:&amp;nbsp; String&lt;br&gt;&lt;br&gt;+genelUyeGirisi:&amp;nbsp; String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mO-Jo7RIkGv5yGXzlKSI-13">
+          <mxGeometry y="78" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="mO-Jo7RIkGv5yGXzlKSI-17" value="&amp;nbsp;+main(String[]):&amp;nbsp; &amp;nbsp;void" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="350" y="228" width="140" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="mO-Jo7RIkGv5yGXzlKSI-18" value="UyeEkleme" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="130" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mO-Jo7RIkGv5yGXzlKSI-19" value="+elitUyeEkleme():&amp;nbsp; &amp;nbsp; &amp;nbsp;void&lt;br&gt;&lt;br&gt;+genelUyeEkleme(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mO-Jo7RIkGv5yGXzlKSI-18">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="mO-Jo7RIkGv5yGXzlKSI-22" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=1.008;exitY=0.344;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=-0.069;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mO-Jo7RIkGv5yGXzlKSI-19" target="mO-Jo7RIkGv5yGXzlKSI-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="300" as="sourcePoint" />
+            <mxPoint x="490" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mO-Jo7RIkGv5yGXzlKSI-27" value="MailGonderme" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mO-Jo7RIkGv5yGXzlKSI-28" value="+UyelereMail(String):&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;void&lt;br&gt;&lt;br&gt;+sendmail(String,String,String)&amp;nbsp; &amp;nbsp; void&lt;br&gt;&lt;br&gt;+getSubjectAndText()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; String[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mO-Jo7RIkGv5yGXzlKSI-27">
+          <mxGeometry y="26" width="210" height="84" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
